@@ -21,7 +21,7 @@ export const Menu = () =>{
                             <Link to="/diagramas">Diagramas</Link>
                         </li>
                         <li>
-                            <Link to="/scrips">Scrips</Link>
+                            <Link to="/scrips">MANUAL DE USUARIO</Link>
                         </li>
                     </ul>
                 </nav>
