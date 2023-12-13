@@ -6,22 +6,14 @@ export const Menu = () =>{
     return(
         <>
             <div className="absolute right-0 top-0 h-20">
-                <nav  className="w-screen h-full bg-sky-600 flex text-center items-center">
+                <nav  className="w-screen h-full bg-zinc-400 flex text-center items-center">
                     <ul className="flex gap-x-16  text-3xl font-medium ">
                         <li>
-                            <Link to="/" className="pl-12">Inico</Link>
+                            <Link to="/ManuelTecnico" className="pl-12">Manual Técnico</Link>
                         </li>
+
                         <li>
-                            <Link to="/ManuelTecnico">Manual Tecnico</Link>
-                        </li>
-                        <li>
-                            <Link to="/frameworks">Frameworks</Link>
-                        </li>
-                        <li>
-                            <Link to="/diagramas">Diagramas</Link>
-                        </li>
-                        <li>
-                            <Link to="/scrips">MANUAL DE USUARIO</Link>
+                            <Link to="/ManualUsuario">Manual de Usuario</Link>
                         </li>
                     </ul>
                 </nav>

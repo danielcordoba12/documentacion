@@ -2,7 +2,7 @@ import React from 'react';
 
 const ManualTecnico = () => {
   return (
-    <div className="container mx-auto p-4 text-justify">
+    <div className="bg-gray-50 p-8 text-justify max-w-[1250px] mx-auto">
       <h1 className="text-3xl font-bold mb-4">Tabla de Contenido</h1>
       <ul className="ml-4">
         <li><a href="#manual-tecnico">Manual Técnico the coffee data</a></li>

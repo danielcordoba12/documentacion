@@ -2,12 +2,11 @@ import React from "react";
 import { Outlet,Link } from "react-router-dom";
 
 
-export const Scrips = () =>{
+export const ManualUsuario = () =>{
     return(
         <><br />
-            <h1>MANUAL DE USUARIO</h1><br />
 
-    <div className="bg-gray-100 p-8 text-justify max-w-[1250px] mx-auto">
+    <div className="bg-gray-50 p-8 text-justify max-w-[1250px] mx-auto">
       <h1 className="text-3xl font-bold mb-4">Introducción</h1>
       <p>
         Bienvenido al fascinante mundo de Coffee Data, donde la pasión por el café se
@@ -335,4 +334,4 @@ export const Scrips = () =>{
     )
 }
 
-export default Scrips
+export default ManualUsuario
