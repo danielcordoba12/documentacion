@@ -12,7 +12,7 @@ export const Menu = () =>{
                             <Link to="/" className="pl-12">Inico</Link>
                         </li>
                         <li>
-                            <Link to="/prerequisitos">Prerequisitos</Link>
+                            <Link to="/ManuelTecnico">Manual Tecnico</Link>
                         </li>
                         <li>
                             <Link to="/frameworks">Frameworks</Link>

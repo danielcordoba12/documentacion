@@ -1,10 +1,7 @@
 import { Route,Routes } from 'react-router-dom';
 import './index.css';
-import { Menu } from './pages/menu'
-import Prerequisitos from './pages/Prerequisitos';
-import Frameworks from './pages/frameworks';
-import Diagramas from './pages/Diagramas';
-import Scrips from './pages/scrips';
+import { Menu } from './pages/menu';
+import ManualTecnico from './pages/ManualTecnico';
 
 
 function App() {
@@ -13,13 +10,7 @@ function App() {
     < >
       <Routes>
         <Route path="/" element={<Menu/>}>
-        <Route path="/Prerequisitos" element={<Prerequisitos/>}></Route>
-        <Route path='/Frameworks' element={<Frameworks/>}></Route>
-        <Route path='/Diagramas' element={<Diagramas/>}></Route>
-        <Route path='/Scrips' element={<Scrips/>}></Route>
-
-
-        
+        <Route path="/ManuelTecnico" element={<ManualTecnico/>}></Route>
         </Route>
       </Routes>
     </>
