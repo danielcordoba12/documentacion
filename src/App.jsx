@@ -3,6 +3,8 @@ import './index.css';
 import { Menu } from './pages/menu'
 import Prerequisitos from './pages/Prerequisitos';
 import Frameworks from './pages/frameworks';
+import Diagramas from './pages/Diagramas';
+import Scrips from './pages/scrips';
 
 
 function App() {
@@ -13,6 +15,11 @@ function App() {
         <Route path="/" element={<Menu/>}>
         <Route path="/Prerequisitos" element={<Prerequisitos/>}></Route>
         <Route path='/Frameworks' element={<Frameworks/>}></Route>
+        <Route path='/Diagramas' element={<Diagramas/>}></Route>
+        <Route path='/Scrips' element={<Scrips/>}></Route>
+
+
+        
         </Route>
       </Routes>
     </>
